@@ -99,7 +99,12 @@ The nuget package [Azure.Storage.Blobs](https://www.nuget.org/packages/Azure.Sto
  
 ## Step 5 - Get the images' related data and expose it through an API
 Antony is currently storing his images metadata in a cosmos Db storage as he's using it in other projects.
-To access it he uses the given Azure Cosmos Db connection string
+To access it he uses the given Azure Cosmos Db connection string as well as the following information:
+CosmosDb Database Id:
+> technical-test
+
+CosmosDb Collection name:
+> metadata
 
 **Important note:**
 The nuget package [Microsoft.Azure.Cosmos](https://www.nuget.org/packages/Microsoft.Azure.Cosmos) must be used to consume the cosmosDb 
