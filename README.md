@@ -13,7 +13,7 @@ work on the subject.
 
 # Challenge subject
 
-Antony Bearnett is a web developper specialized in .NET technologies and loves Angular.
+Antony Bearnett is a web developper specialized in .NET technologies and loves React or Angular with typescript.
 He wants to renew his portfolio website. He has already thought about the layout and the theme he wants and has made a mock-up with photoshop.
 
 The new website should look like this.
