@@ -13,7 +13,7 @@ work on the subject.
 
 # Challenge subject
 
-Antony Bearnett is a web developper specialized in .NET technologies and loves React or Angular with typescript.
+Antony Bearnett is a web developper specialized in .NET technologies and loves React with typescript.
 He wants to renew his portfolio website. He has already thought about the layout and the theme he wants and has made a mock-up with photoshop.
 
 The new website should look like this.
@@ -37,25 +37,25 @@ This button would display a form where the head hunter could enter the informati
 - The connection string to connect to the test databases will be send to you by email.
 
 ## Step 1 - Architecture
-As Anthony is a .NET developper with a good knowledge of Angular he decide to start his new project with ASP.NET Core 6 and Angular embeded in it.
+As Anthony is a .NET developper with a good knowledge of React he decide to start his new project with ASP.NET Core 6 and React embeded in it.
 This will allow him to have his client and API in the same project.
 
 ![new website - architecture][architecture]
 
 **Step completion goal:**
-- Create a new ASP.NET Core 6 project with an angular app.
+- Create a new ASP.NET Core 6 project with a React app.
 
-## Step 2 - Integrate the HTML template and initialize all Angular components.
+## Step 2 - Integrate the HTML template and initialize all React components.
 To start his project Anthony bought an HTML and CSS template.
 The HTML template is available [here](./html-template)
 
-He decide to start working on the angular app.
+He decide to start working on the react app.
 His goal is to have the site's frame with dummy information
 
 **Step completion goal:**
-- Integrate the HTML & CSS template and the basic angular component architecture.
+- Integrate the HTML & CSS template and the basic react component architecture.
 
-## Step 3 - Get the data from (our fake) LinkedIn Api and display it into the angular component
+## Step 3 - Get the data from (our fake) LinkedIn Api and display it into the React component
 The swagger documentation of the (fake) LinkedIn api is available [here](https://witivio-technical-test-api.azurewebsites.net/swagger)
 Antony already registered an API Key that will grant him access to its data.
 This Api Key has to be added in an Api-Key header as described in the documentation
@@ -65,7 +65,7 @@ This Api Key has to be added in an Api-Key header as described in the documentat
 The (fake LinkedIn API) must be called from the ASP.NET Core server.
 
 **Step completion goal:**
-- Call the (fake) LinkedIn API through a HttpClient and expose it to the angular app through an API.
+- Call the (fake) LinkedIn API through a HttpClient and expose it to the React app through an API.
 
 ## Step 4 - Get the Image from blob storage and expose it through an API
 Antony has already created the [Azure Blob Storage](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction) as he's using it in other projects.
